@@ -1,0 +1,46 @@
+{
+  "metrics": [
+    {
+      "id": "revenue",
+      "name": "Revenue",
+      "currentValue": 5000000,
+      "data": [
+        { "date": "2018", "value": 4000000 },
+        { "date": "2019", "value": 4500000 },
+        { "date": "2020", "value": 5000000 },
+        { "date": "2021", "value": 5500000 },
+        { "date": "2022", "value": 6000000 },
+        { "date": "2023", "value": 6500000 },
+        { "date": "2024", "value": 5000000 }
+      ]
+    },
+    {
+      "id": "expenses",
+      "name": "Expenses",
+      "currentValue": 3000000,
+      "data": [
+        { "date": "2018", "value": 2500000 },
+        { "date": "2019", "value": 2800000 },
+        { "date": "2020", "value": 3000000 },
+        { "date": "2021", "value": 3200000 },
+        { "date": "2022", "value": 3500000 },
+        { "date": "2023", "value": 3800000 },
+        { "date": "2024", "value": 3000000 }
+      ]
+    },
+    {
+      "id": "ebitdar",
+      "name": "EBITDAR",
+      "currentValue": 2000000,
+      "data": [
+        { "date": "2018", "value": 1500000 },
+        { "date": "2019", "value": 1700000 },
+        { "date": "2020", "value": 2000000 },
+        { "date": "2021", "value": 2300000 },
+        { "date": "2022", "value": 2500000 },
+        { "date": "2023", "value": 2700000 },
+        { "date": "2024", "value": 2000000 }
+      ]
+    }
+  ]
+}

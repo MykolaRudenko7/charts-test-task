@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**Charts-Test-Task** — це веб-додаток, створений за допомогою Next.js 15, який дозволяє візуалізувати та аналізувати фінансові показники. Додаток підтримує відображення графіків, деталей метрик та їх взаємозв'язків.
 
-## Getting Started
+---
 
-First, run the development server:
+## ✨ Особливості
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 📊 Візуалізація фінансових показників за допомогою графіків (лінійні та стовпчасті).
+- 🔍 Детальний аналіз кожної метрики з можливістю перегляду пов'язаних показників.
+- ⚡ Швидкий та адаптивний інтерфейс завдяки використанню Next.js та Tailwind CSS.
+- 🛠️ Підтримка TypeScript для безпеки типів та покращення якості коду.
+- ✅ Інтеграція з CI/CD для автоматичної збірки, тестування та деплою.
+
+---
+
+## 🚀 Швидкий старт
+
+### Передумови
+
+- Node.js (v18 або новіше)
+- npm або yarn
+
+### Встановлення
+
+1. Клонуйте репозиторій:
+
+   ```bash
+   git clone https://github.com/MykolaRudenko7/charts-test-task.git
+   cd charts-test-task
+   ```
+
+2. Встановіть залежності:
+
+   ```bash
+   npm install
+   ```
+
+3. Запустіть проект локально:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Відкрийте браузер за адресою [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🛠️ Технології
+
+- **Next.js 15** — React-фреймворк для серверного рендерингу та статичної генерації.
+- **Tailwind CSS** — Utility-first CSS фреймворк для швидкої розробки інтерфейсів.
+- **TypeScript** — JavaScript із підтримкою типів для покращення якості коду.
+- **Recharts** — Бібліотека для створення графіків та діаграм.
+- **ESLint & Prettier** — Інструменти для лінтування та форматування коду.
+
+---
+
+## 🛠️ CI/CD
+
+Проект інтегрований з GitHub Actions для автоматичної збірки, тестування та деплою. Кожен пул-реквест на гілку `main` запускає наступні кроки:
+
+1. Перевірка типів TypeScript (`npm run type-check`).
+2. Лінтування коду (`npm run lint`).
+3. Форматування коду (`npm run format`).
+4. Збірка проекту (`npm run build`).
+
+---
+
+## 📂 Структура проекту
+
+```
+charts-test-task/
+├── src/
+│   ├── app/                  # Next.js сторінки та маршрути
+│   ├── components/           # React компоненти
+│   ├── services/             # Сервіси для роботи з даними
+│   ├── types/                # TypeScript типи
+│   ├── utils/                # Допоміжні функції
+│   └── styles/               # Глобальні стилі
+├── public/                   # Статичні файли (наприклад, зображення)
+├── tests/                    # Тести
+├── .github/workflows/        # GitHub Actions workflows
+└── README.md                 # Документація
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤝 Як внести свій внесок
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Форкніть репозиторій.
+2. Створіть нову гілку (`git checkout -b feature/your-feature-name`).
+3. Зробіть коміти (`git commit -m 'feat: Add some feature'`).
+4. Запуште гілку (`git push origin feature/your-feature-name`).
+5. Створіть Pull Request.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📧 Контакти
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Якщо у вас є питання чи пропозиції, зв'яжіться зі мною:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **GitHub**: [MykolaRudenko7](https://github.com/MykolaRudenko7)
+- **Email**: m.rudenko.rb@gmail.com**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Як використовувати:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Збережіть цей файл як `README.md` у корені вашого проекту.
+2. Якщо у вас є додаткові деталі про проект (наприклад, специфічні інструкції для налаштування або використання), додайте їх у відповідні розділи.
+
+Цей `README.md` надає чітку структуру та опис вашого проекту, що робить його зручним для розробників та користувачів.
+
+```
+
+```
